@@ -17,7 +17,7 @@ const LoginCtrl = async (req, res)=>{
         if(!user){
             return res.status(404).send('User Not Found!')
         }else{
-            res.status(200).json({user, success: true});
+            res.status(200).json({user});
         }
     }catch(error){
         console.log(error);
