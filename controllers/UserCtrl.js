@@ -12,16 +12,17 @@ const NewUserCtrl = async (req,res) =>{
 }
 const LoginCtrl = async (req, res)=>{
     try{
-        const user = await UserModel.findOne({$and: [{email: req.body.email}, {password: req.body.password}]});
+        const{email, password}=req.body;
+        const user = await UserModel.findOne({$and: [{email}, {password}]});
         if(!user){
-            res.status(404).send('User Not Found');
+            return res.status(404).send('User Not Found');
         }else{
             
-            res.status(200).json({user});
+            res.status(200).json({user, success: true});
         }
     }catch(error){
         console.log(error);
-        res.status(500).send('User Not Found')
+        res.status(400).json({success:false,error})
     }
 }
 export {NewUserCtrl, LoginCtrl}
