@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.78d7b60f.css",
-    "main.js": "/static/js/main.abe29182.js",
+    "main.css": "/static/css/main.71116778.css",
+    "main.js": "/static/js/main.3670b45f.js",
     "static/js/592.599f76a2.chunk.js": "/static/js/592.599f76a2.chunk.js",
     "static/media/HomeImg3.jpg": "/static/media/HomeImg3.1a0ee34e763f0afc71f7.jpg",
     "static/media/HomeImg2.jpg": "/static/media/HomeImg2.abb91cc864fcd228b476.jpg",
@@ -9,12 +9,12 @@
     "static/media/The-Strategist-Logo.jpg": "/static/media/The-Strategist-Logo.fc7604c3dbc39b6f774b.jpg",
     "static/media/Vogue-Logo.svg": "/static/media/Vogue-Logo.adbd4a2e4c289947b5b8e707407bac2e.svg",
     "index.html": "/index.html",
-    "main.78d7b60f.css.map": "/static/css/main.78d7b60f.css.map",
-    "main.abe29182.js.map": "/static/js/main.abe29182.js.map",
+    "main.71116778.css.map": "/static/css/main.71116778.css.map",
+    "main.3670b45f.js.map": "/static/js/main.3670b45f.js.map",
     "592.599f76a2.chunk.js.map": "/static/js/592.599f76a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78d7b60f.css",
-    "static/js/main.abe29182.js"
+    "static/css/main.71116778.css",
+    "static/js/main.3670b45f.js"
   ]
 }
